@@ -1,0 +1,15 @@
+name: Greeting
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add greeting comment
+        uses: actions-ecosystem/action-add-comment@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          body: "Thanks for opening your first issue 🎉"
