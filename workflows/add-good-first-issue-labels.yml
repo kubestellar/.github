@@ -1,0 +1,22 @@
+# .github/workflows/add-good-first-issue-labels.yml
+name: Add "good first issue" Label
+
+on:
+  issues:
+    types:
+      - opened
+      - reopened
+
+permissions:
+  issues: write
+
+jobs:
+  auto-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add good first issue and help wanted labels
+        run: |
+          gh issue edit "$ISSUE_NUMBER" --add-label "good first issue,help wanted"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
