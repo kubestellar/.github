@@ -45,6 +45,7 @@ Explore the KubeStellar ecosystem through our carefully crafted repositories:
 | [**kubestellar/ocm-transport-plugin**](https://github.com/kubestellar/ocm-transport-plugin) | 🚚 Transport plugin for Open Cluster Management integration | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/ocm-transport-plugin?style=social) |
 | [**kubestellar/a2a**](https://github.com/kubestellar/a2a) | 🔗 KubeStellar's A2A and MCP server component | Python | ![Stars](https://img.shields.io/github/stars/kubestellar/a2a?style=social) |
 | [**kubestellar/docs**](https://github.com/kubestellar/docs) | 📖 Comprehensive documentation and guides | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/docs?style=social) |
+| [**kubestellar/kubectl-multi-plugin**](https://github.com/kubestellar/kubectl-multi-plugin) | 🔀 Powerful kubectl plugin for seamless multi-cluster operations | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubectl-multi-plugin?style=social) |
 
 ---
 
