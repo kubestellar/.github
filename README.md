@@ -72,3 +72,4 @@ Please ensure any changes maintain consistency across the KubeStellar organizati
 ---
 
 Maintained by the [Kubestellar Team](https://github.com/kubestellar).
+
