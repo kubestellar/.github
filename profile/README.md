@@ -56,19 +56,27 @@ The **KubeStellar Console** is the flagship interface for managing multi-cluster
 
 ---
 
-## Infrastructure & Core
+## 📦 Legacy Repositories
 
-The foundational components that power the KubeStellar platform:
+Earlier KubeStellar components — the Console ecosystem above is the active focus of development:
+
+| Repository | Description | Language |
+|------------|-------------|----------|
+| [kubestellar/kubestellar](https://github.com/kubestellar/kubestellar) | Multi-cluster configuration management platform | Go |
+| [kubestellar/kubeflex](https://github.com/kubestellar/kubeflex) | Platform for running Kubernetes control plane APIs | Go |
+| [kubestellar/ui](https://github.com/kubestellar/ui) | Earlier web interface for multi-cluster operations | TypeScript |
+| [kubestellar/ocm-status-addon](https://github.com/kubestellar/ocm-status-addon) | Status monitoring for Open Cluster Management | Go |
+| [kubestellar/ocm-transport-plugin](https://github.com/kubestellar/ocm-transport-plugin) | Transport plugin for Open Cluster Management | Go |
+
+---
+
+## 🔧 Tools & Documentation
 
 | Repository | Description | Language | Activity |
 |------------|-------------|----------|----------|
-| [**kubestellar/kubestellar**](https://github.com/kubestellar/kubestellar) | 🎯 Core multi-cluster configuration management platform | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubestellar?style=social) |
-| [**kubestellar/kubeflex**](https://github.com/kubestellar/kubeflex) | ⚡ Flexible platform for running Kubernetes control plane APIs | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubeflex?style=social) |
-| [**kubestellar/ocm-status-addon**](https://github.com/kubestellar/ocm-status-addon) | 📊 Status monitoring for Open Cluster Management | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/ocm-status-addon?style=social) |
-| [**kubestellar/ocm-transport-plugin**](https://github.com/kubestellar/ocm-transport-plugin) | 🚚 Transport plugin for Open Cluster Management integration | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/ocm-transport-plugin?style=social) |
-| [**kubestellar/a2a**](https://github.com/kubestellar/a2a) | 🔗 KubeStellar's A2A and MCP server component | Python | ![Stars](https://img.shields.io/github/stars/kubestellar/a2a?style=social) |
-| [**kubestellar/kubectl-multi-plugin**](https://github.com/kubestellar/kubectl-multi-plugin) | 🔀 Powerful kubectl plugin for seamless multi-cluster operations | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubectl-multi-plugin?style=social) |
-| [**kubestellar/docs**](https://github.com/kubestellar/docs) | 📖 Comprehensive documentation and guides | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/docs?style=social) |
+| [**kubestellar/a2a**](https://github.com/kubestellar/a2a) | 🔗 A2A and MCP server component | Python | ![Stars](https://img.shields.io/github/stars/kubestellar/a2a?style=social) |
+| [**kubestellar/kubectl-multi-plugin**](https://github.com/kubestellar/kubectl-multi-plugin) | 🔀 kubectl plugin for multi-cluster operations | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubectl-multi-plugin?style=social) |
+| [**kubestellar/docs**](https://github.com/kubestellar/docs) | 📖 Documentation and guides | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/docs?style=social) |
 
 ---
 
