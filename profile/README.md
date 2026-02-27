@@ -93,17 +93,6 @@ cd console && bash startup-oauth.sh
 ```
 See the [Console README](https://github.com/kubestellar/console#readme) for detailed setup.
 
-### Core Platform
-- **[Quick Start Guide](https://docs.kubestellar.io/release-0.28.0/direct/user-guide-intro/)** - Get up and running in minutes
-- **[Architecture Overview](https://docs.kubestellar.io/release-0.28.0/direct/architecture/)** - Understand how KubeStellar works
-- **[User Guide](https://docs.kubestellar.io/release-0.28.0/direct/user-guide-intro/)** - Comprehensive usage documentation
-
-```bash
-# Install KubeStellar using our installation script
-bash <(curl -s https://raw.githubusercontent.com/kubestellar/kubestellar/refs/tags/v0.28.0/scripts/create-kubestellar-demo-env.sh) --platform kind | bash
-```
-
-Or follow our [detailed installation guide](https://docs.kubestellar.io/release-0.28.0/direct/get-started/) for custom setups.
 
 ---
 
