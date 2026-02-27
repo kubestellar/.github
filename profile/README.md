@@ -85,7 +85,7 @@ Earlier KubeStellar components — the Console ecosystem above is the active foc
 Ready to simplify your multi-cluster journey? Here's how to begin:
 
 ### Console (Recommended)
-> The fastest way to get started — a visual, AI-powered dashboard for your clusters.
+> Less than a minute to get installed and started with your own KubeStellar Console.
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/kubestellar/console/main/start.sh | bash
