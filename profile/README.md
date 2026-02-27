@@ -88,10 +88,13 @@ Ready to simplify your multi-cluster journey? Here's how to begin:
 > The fastest way to get started — a visual, AI-powered dashboard for your clusters.
 
 ```bash
-git clone https://github.com/kubestellar/console.git
-cd console && bash startup-oauth.sh
+brew tap kubestellar/tap && brew install --head kc-agent
+kc-agent
 ```
-See the [Console README](https://github.com/kubestellar/console#readme) for detailed setup.
+
+Then visit [console.kubestellar.io](https://console.kubestellar.io) — the hosted console connects to your local agent automatically.
+
+See the [Console README](https://github.com/kubestellar/console#readme) for self-hosted setup and configuration options.
 
 
 ---
