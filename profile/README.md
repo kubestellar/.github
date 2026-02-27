@@ -23,6 +23,29 @@ KubeStellar is a [CNCF Sandbox](https://www.cncf.io/sandbox-projects/) project t
 
 ---
 
+## 🚀 Console Ecosystem — AI-Powered Multi-Cluster Management
+
+The **KubeStellar Console** is the flagship interface for managing multi-cluster Kubernetes environments with built-in AI capabilities. It's supported by a growing ecosystem of community-driven extensions:
+
+| Repository | Description | Activity |
+|------------|-------------|----------|
+| [**kubestellar/console**](https://github.com/kubestellar/console) | 🧠 **AI-powered multi-cluster Kubernetes dashboard** — natural language missions, real-time cluster monitoring, 153+ card types, GitHub OAuth, dark/light themes | ![Stars](https://img.shields.io/github/stars/kubestellar/console?style=social) |
+| [**kubestellar/console-marketplace**](https://github.com/kubestellar/console-marketplace) | 🛒 **Community dashboards, card presets & themes** — browse, install, and share dashboard layouts and visualization presets | ![Stars](https://img.shields.io/github/stars/kubestellar/console-marketplace?style=social) |
+| [**kubestellar/console-kb**](https://github.com/kubestellar/console-kb) | 📚 **AI mission knowledge base** — share, discover, and import proven AI mission solutions to save tokens and time | ![Stars](https://img.shields.io/github/stars/kubestellar/console-kb?style=social) |
+
+### ✨ Console Highlights
+
+- **AI Missions** — Describe what you want in natural language and let AI handle multi-cluster operations
+- **153+ Card Types** — From pod status to network topology, visualize anything across clusters
+- **Marketplace** — Install community dashboards and card presets with one click
+- **Knowledge Base** — Import battle-tested AI solutions from the community instead of re-prompting
+- **Real-time Monitoring** — Live WebSocket updates across all connected clusters
+- **GitHub OAuth** — Secure authentication with team-based access control
+
+> **[Get started with Console →](https://github.com/kubestellar/console#readme)**
+
+---
+
 ### 🎯 Why KubeStellar?
 
 - **Seamless Scaling**: Transition from single to multi-cluster without changing your workflows
@@ -33,19 +56,19 @@ KubeStellar is a [CNCF Sandbox](https://www.cncf.io/sandbox-projects/) project t
 
 ---
 
-## Our Ecosystem
+## Infrastructure & Core
 
-Explore the KubeStellar ecosystem through our carefully crafted repositories:
+The foundational components that power the KubeStellar platform:
+
 | Repository | Description | Language | Activity |
 |------------|-------------|----------|----------|
 | [**kubestellar/kubestellar**](https://github.com/kubestellar/kubestellar) | 🎯 Core multi-cluster configuration management platform | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubestellar?style=social) |
 | [**kubestellar/kubeflex**](https://github.com/kubestellar/kubeflex) | ⚡ Flexible platform for running Kubernetes control plane APIs | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubeflex?style=social) |
-| [**kubestellar/ui**](https://github.com/kubestellar/ui) | 🖥️ Intuitive web interface for multi-cluster operations | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/ui?style=social) |
 | [**kubestellar/ocm-status-addon**](https://github.com/kubestellar/ocm-status-addon) | 📊 Status monitoring for Open Cluster Management | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/ocm-status-addon?style=social) |
 | [**kubestellar/ocm-transport-plugin**](https://github.com/kubestellar/ocm-transport-plugin) | 🚚 Transport plugin for Open Cluster Management integration | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/ocm-transport-plugin?style=social) |
 | [**kubestellar/a2a**](https://github.com/kubestellar/a2a) | 🔗 KubeStellar's A2A and MCP server component | Python | ![Stars](https://img.shields.io/github/stars/kubestellar/a2a?style=social) |
-| [**kubestellar/docs**](https://github.com/kubestellar/docs) | 📖 Comprehensive documentation and guides | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/docs?style=social) |
 | [**kubestellar/kubectl-multi-plugin**](https://github.com/kubestellar/kubectl-multi-plugin) | 🔀 Powerful kubectl plugin for seamless multi-cluster operations | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubectl-multi-plugin?style=social) |
+| [**kubestellar/docs**](https://github.com/kubestellar/docs) | 📖 Comprehensive documentation and guides | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/docs?style=social) |
 
 ---
 
@@ -53,12 +76,19 @@ Explore the KubeStellar ecosystem through our carefully crafted repositories:
 
 Ready to simplify your multi-cluster journey? Here's how to begin:
 
-### Documentation
+### Console (Recommended)
+> The fastest way to get started — a visual, AI-powered dashboard for your clusters.
+
+```bash
+git clone https://github.com/kubestellar/console.git
+cd console && bash startup-oauth.sh
+```
+See the [Console README](https://github.com/kubestellar/console#readme) for detailed setup.
+
+### Core Platform
 - **[Quick Start Guide](https://docs.kubestellar.io/release-0.28.0/direct/user-guide-intro/)** - Get up and running in minutes
 - **[Architecture Overview](https://docs.kubestellar.io/release-0.28.0/direct/architecture/)** - Understand how KubeStellar works
 - **[User Guide](https://docs.kubestellar.io/release-0.28.0/direct/user-guide-intro/)** - Comprehensive usage documentation
-
-### Quick Installation
 
 ```bash
 # Install KubeStellar using our installation script
