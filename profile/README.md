@@ -1,184 +1,44 @@
-<div align="center">
-  <h1>
-    <a href="https://git.io/typing-svg">
-      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=36&duration=3000&pause=1000&color=2E86AB&center=true&vCenter=true&random=false&width=800&lines=Welcome+to+KubeStellar+Universe!;Multi-Cluster+Made+Simple;CNCF+Sandbox+Project" alt="Typing SVG" />
-    </a>
-  </h1>
-</div>
+# KubeStellar
 
-KubeStellar is a [CNCF Sandbox](https://www.cncf.io/sandbox-projects/) project that revolutionizes how you manage applications across multiple Kubernetes clusters. Whether you're scaling from one cluster to many or already managing multiple clusters, KubeStellar provides a unified, developer-friendly workflow that works seamlessly with your existing tools.
+[CNCF Sandbox](https://www.cncf.io/sandbox-projects/) project for AI-powered multi-cluster Kubernetes management.
 
-<div align="center">
-  <img src="./assets/gif/enhanced_banner.gif" alt="KubeStellar Banner" height="450" width="95%">
-</div>
+[![CNCF Sandbox](https://img.shields.io/badge/CNCF-Sandbox-2E86AB?style=flat-square&logo=cncf)](https://www.cncf.io/sandbox-projects/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square)](./LICENSE)
+[![Slack](https://img.shields.io/badge/Slack-%23kubestellar--dev-purple?style=flat-square&logo=slack)](https://cloud-native.slack.com/archives/C097094RZ3M)
 
-<div align="center">
+## Console Ecosystem
 
-[![CNCF Sandbox](https://img.shields.io/badge/CNCF-Sandbox%20Project-2E86AB?style=for-the-badge&logo=cncf&logoColor=white)](https://www.cncf.io/sandbox-projects/)
-[![License](https://img.shields.io/badge/License-Apache%202.0-A23B72?style=for-the-badge&logoColor=white)](./LICENSE)
-[![Contributors](https://img.shields.io/github/contributors/kubestellar/kubestellar?style=for-the-badge&color=F18F01&logoColor=white)](https://github.com/kubestellar/kubestellar/graphs/contributors)
-[![Slack](https://img.shields.io/badge/Join%20Slack-KubeStellar-C73E1D?style=for-the-badge&logo=slack&logoColor=white)](https://cloud-native.slack.com/archives/C097094RZ3M)
+| Repository | Description |
+|------------|-------------|
+| [**console**](https://github.com/kubestellar/console) | AI-powered multi-cluster dashboard — 30+ dashboards, 150+ monitoring cards, guided install missions, real-time cluster monitoring |
+| [**console-kb**](https://github.com/kubestellar/console-kb) | Knowledge base of guided installers for 250+ CNCF projects and solutions to common Kubernetes problems |
+| [**console-marketplace**](https://github.com/kubestellar/console-marketplace) | Community-contributed monitoring cards, dashboard presets, and themes |
 
-</div>
-
----
-
-## 🚀 Console Ecosystem — AI-Powered Multi-Cluster Management
-
-The **KubeStellar Console** is the flagship interface for managing multi-cluster Kubernetes environments with built-in AI capabilities. It's supported by a growing ecosystem of community-driven extensions:
-
-| Repository | Description | Activity |
-|------------|-------------|----------|
-| [**kubestellar/console**](https://github.com/kubestellar/console) | 🧠 **AI-powered multi-cluster Kubernetes dashboard** — natural language missions, real-time cluster monitoring, 153+ card types, GitHub OAuth, dark/light themes | ![Stars](https://img.shields.io/github/stars/kubestellar/console?style=social) |
-| [**kubestellar/console-marketplace**](https://github.com/kubestellar/console-marketplace) | 🛒 **Community dashboards, card presets & themes** — browse, install, and share dashboard layouts and visualization presets | ![Stars](https://img.shields.io/github/stars/kubestellar/console-marketplace?style=social) |
-| [**kubestellar/console-kb**](https://github.com/kubestellar/console-kb) | 📚 **AI mission knowledge base** — share, discover, and import proven AI mission solutions to save tokens and time | ![Stars](https://img.shields.io/github/stars/kubestellar/console-kb?style=social) |
-
-### ✨ Console Highlights
-
-- **AI Missions** — Describe what you want in natural language and let AI handle multi-cluster operations
-- **153+ Card Types** — From pod status to network topology, visualize anything across clusters
-- **Marketplace** — Install community dashboards and card presets with one click
-- **Knowledge Base** — Import battle-tested AI solutions from the community instead of re-prompting
-- **Real-time Monitoring** — Live WebSocket updates across all connected clusters
-- **GitHub OAuth** — Secure authentication with team-based access control
-
-> **[Get started with Console →](https://github.com/kubestellar/console#readme)**
-
----
-
-### 🎯 Why KubeStellar?
-
-- **Seamless Scaling**: Transition from single to multi-cluster without changing your workflows
-- **Tool Integration**: Works with your existing Kubernetes tools - no resource modifications needed  
-- **Universal Deployment**: Perfect for edge, multi-cloud, and hybrid cloud environments
-- **Developer Friendly**: Unified experience across all your clusters
-- **Enterprise Ready**: Production-grade reliability and security
-
----
-
-## 📦 Legacy Repositories
-
-Earlier KubeStellar components — the Console ecosystem above is the active focus of development:
-
-| Repository | Description | Language |
-|------------|-------------|----------|
-| [kubestellar/kubestellar](https://github.com/kubestellar/kubestellar) | Multi-cluster configuration management platform | Go |
-| [kubestellar/kubeflex](https://github.com/kubestellar/kubeflex) | Platform for running Kubernetes control plane APIs | Go |
-| [kubestellar/ui](https://github.com/kubestellar/ui) | Earlier web interface for multi-cluster operations | TypeScript |
-| [kubestellar/ocm-status-addon](https://github.com/kubestellar/ocm-status-addon) | Status monitoring for Open Cluster Management | Go |
-| [kubestellar/ocm-transport-plugin](https://github.com/kubestellar/ocm-transport-plugin) | Transport plugin for Open Cluster Management | Go |
-
----
-
-## 🔧 Tools & Documentation
-
-| Repository | Description | Language | Activity |
-|------------|-------------|----------|----------|
-| [**kubestellar/a2a**](https://github.com/kubestellar/a2a) | 🔗 A2A and MCP server component | Python | ![Stars](https://img.shields.io/github/stars/kubestellar/a2a?style=social) |
-| [**kubestellar/kubectl-multi-plugin**](https://github.com/kubestellar/kubectl-multi-plugin) | 🔀 kubectl plugin for multi-cluster operations | Go | ![Stars](https://img.shields.io/github/stars/kubestellar/kubectl-multi-plugin?style=social) |
-| [**kubestellar/docs**](https://github.com/kubestellar/docs) | 📖 Documentation and guides | TypeScript | ![Stars](https://img.shields.io/github/stars/kubestellar/docs?style=social) |
-
----
-
-## Getting Started
-
-Ready to simplify your multi-cluster journey? Here's how to begin:
-
-### Console (Recommended)
-> Less than a minute to get installed and started with your own KubeStellar Console.
+### Quick Start
 
 ```bash
 curl -sSL https://raw.githubusercontent.com/kubestellar/console/main/start.sh | bash
 ```
 
-See the [Console README](https://github.com/kubestellar/console#readme) for self-hosted setup and configuration options.
+Opens at [localhost:8080](http://localhost:8080). See the [Console README](https://github.com/kubestellar/console#readme) for OAuth, kc-agent, and deployment options. Try the [live demo](https://console.kubestellar.io).
 
+## Supporting Repos
 
----
+| Repository | Description |
+|------------|-------------|
+| [docs](https://github.com/kubestellar/docs) | Documentation site — [console-docs.kubestellar.io](https://console-docs.kubestellar.io) |
+| [claude-plugins](https://github.com/kubestellar/claude-plugins) | Claude Code MCP plugins for Kubernetes operations |
+| [homebrew-tap](https://github.com/kubestellar/homebrew-tap) | Homebrew formulae (`kc-agent`) |
+| [a2a](https://github.com/kubestellar/a2a) | A2A and MCP server component |
 
-## Community & Support
+## Legacy
 
-Join our vibrant community and get the support you need:
+Earlier KubeStellar components — no longer actively maintained:
 
-### Connect With Us
-- **[Slack](https://cloud-native.slack.com/archives/C097094RZ3M)** - Join `#kubestellar-dev` in CNCF workspace
-- **[Mailing Lists](https://groups.google.com/g/kubestellar-dev)** - Development discussions and announcements
-- **[Users Forum](https://groups.google.com/g/kubestellar-users)** - User questions and support
+[kubestellar](https://github.com/kubestellar/kubestellar) · [kubeflex](https://github.com/kubestellar/kubeflex) · [ui](https://github.com/kubestellar/ui) · [ocm-status-addon](https://github.com/kubestellar/ocm-status-addon) · [ocm-transport-plugin](https://github.com/kubestellar/ocm-transport-plugin) · [kubectl-multi-plugin](https://github.com/kubestellar/kubectl-multi-plugin)
 
-### Community Events
-- **[Community Meetings](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MWM4a2loZDZrOWwzZWQzZ29xanZwa3NuMWdfMjAyMzA1MThUMTQwMDAwWiBiM2Q2NWM5MmJlZDdhOTg4NGVmN2ZlOWUzZjZjOGZlZDE2ZjZmYjJmODExZjU3NTBmNTQ3NTY3YTVkZDU4ZmVkQGc&tmsrc=b3d65c92bed7a9884ef7fe9e3f6c8fed16f6fb2f811f5750f547567a5dd58fed%40group.calendar.google.com&scp=ALL)** - Bi-weekly community calls
-- **[Meeting Recordings](https://www.youtube.com/@kubestellar)** - Catch up on past meetings
-- **[Upcoming Agendas](https://github.com/kubestellar/kubestellar/issues?q=is%3Aissue+is%3Aopen+label%3Acommunity-meeting)** - See what's coming next
+## Community
 
-### Follow Us
-- **[LinkedIn](https://www.linkedin.com/company/kubestellar/posts/?feedView=all)** - Professional updates and insights
-- **[Medium](https://medium.com/@kubestellar/list/predefined:e785a0675051:READING_LIST)** - Technical articles and deep dives
-- **[YouTube](https://www.youtube.com/@kubestellar)** - Video content and tutorials
-
----
-
-## Contributing
-
-We welcome contributions from everyone! Here's how you can get involved:
-
-### For New Contributors
-- Check out our [Good First Issues](https://github.com/kubestellar/kubestellar/labels/good%20first%20issue)
-- Read our [Contributing Guide](https://github.com/kubestellar/kubestellar/blob/main/CONTRIBUTING.md)
-- Join our [Slack channel](https://cloud-native.slack.com/archives/C097094RZ3M) for guidance
-
-### Ways to Contribute
-- 🐛 **Bug Reports** - Help us improve by reporting issues
-- 💡 **Feature Requests** - Share your ideas for enhancements
-- 📝 **Documentation** - Improve our docs and examples
-- 💻 **Code** - Submit pull requests for fixes and features
-- 🎤 **Community** - Help others and share your expertise
-
-[![](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
-
----
-
-## Security & Compliance
-
-Security is paramount in multi-cluster environments. We maintain high standards:
-
-- **Security Policy** - Review our [Security Policy](./Security.md)
-- **Best Practices** - [![CII Best Practices](https://www.bestpractices.dev/projects/8266/badge)](https://www.bestpractices.dev/projects/8266)
-- **Scorecard** - [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/kubestellar/kubestellar/badge)](https://scorecard.dev/viewer/?uri=github.com/kubestellar/kubestellar)
-- **Security Announcements** - Join [kubestellar-security-announce](https://groups.google.com/u/1/g/kubestellar-security-announce)
-
----
-
-## Project Stats & Health
-
-<div align="center">
-
-![GitHub Org's stars](https://img.shields.io/github/stars/kubestellar?style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors-anon/kubestellar/kubestellar?style=for-the-badge)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/kubestellar/kubestellar?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/kubestellar/kubestellar?style=for-the-badge)
-
-</div>
-
-### Quality Metrics
-- [![Broken Links Check](https://github.com/kubestellar/kubestellar/actions/workflows/broken-links-crawler.yml/badge.svg)](https://github.com/kubestellar/kubestellar/actions/workflows/broken-links-crawler.yml)
-- [![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/kubestellar)](https://artifacthub.io/packages/search?repo=kubestellar)
-
----
-
-## Acknowledgments
-
-KubeStellar is proudly part of the [Cloud Native Computing Foundation (CNCF)](https://www.cncf.io/) as a **Sandbox Project**.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/kubernetes/horizontal/color/kubernetes-horizontal-color.png" width="200" alt="CNCF">
-</div>
-
----
-
-<div align="center">
-
-**⭐ Star us on GitHub if KubeStellar helps simplify your multi-cluster journey!**
-
-Made with ❤️ by the KubeStellar community
-
-</div>
+- [Slack — #kubestellar-dev](https://cloud-native.slack.com/archives/C097094RZ3M)
+- [Community Meetings](https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=MWM4a2loZDZrOWwzZWQzZ29xanZwa3NuMWdfMjAyMzA1MThUMTQwMDAwWiBiM2Q2NWM5MmJlZDdhOTg4NGVmN2ZlOWUzZjZjOGZlZDE2ZjZmYjJmODExZjU3NTBmNTQ3NTY3YTVkZDU4ZmVkQGc&tmsrc=b3d65c92bed7a9884ef7fe9e3f6c8fed16f6fb2f811f5750f547567a5dd58fed%40group.calendar.google.com&scp=ALL) (bi-weekly)
+- [YouTube](https://www.youtube.com/@kubestellar) · [LinkedIn](https://www.linkedin.com/company/kubestellar/) · [Medium](https://medium.com/@kubestellar)
