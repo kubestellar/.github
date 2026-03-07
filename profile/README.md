@@ -20,13 +20,13 @@
 curl -sSL https://raw.githubusercontent.com/kubestellar/console/main/start.sh | bash
 ```
 
-Opens at [localhost:8080](http://localhost:8080). See the [Console README](https://github.com/kubestellar/console#readme) for OAuth, kc-agent, and deployment options. Try the [live demo](https://console.kubestellar.io).
+Opens at [localhost:8080](http://localhost:8080). See the [documentation](https://kubestellar.io/docs/console/readme) for OAuth, kc-agent, and deployment options. Try the [live demo](https://console.kubestellar.io).
 
 ## Supporting Repos
 
 | Repository | Description |
 |------------|-------------|
-| [docs](https://github.com/kubestellar/docs) | Documentation site — [console-docs.kubestellar.io](https://console-docs.kubestellar.io) |
+| [docs](https://github.com/kubestellar/docs) | Documentation site — [kubestellar.io](https://kubestellar.io) |
 | [claude-plugins](https://github.com/kubestellar/claude-plugins) | Claude Code MCP plugins for Kubernetes operations |
 | [homebrew-tap](https://github.com/kubestellar/homebrew-tap) | Homebrew formulae (`kc-agent`) |
 | [a2a](https://github.com/kubestellar/a2a) | A2A and MCP server component |
